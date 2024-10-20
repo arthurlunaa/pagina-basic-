@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    background-color: #f0ecec;
+    padding: 1rem 1 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+}
+header h1{
+    color: #000080;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: Roboto;
+}
+header a {
+    font-family: Roboto;
+}
+  nav a{
+    font-family: Roboto;
+    padding: 0.6rem;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+nav a:hover {
+    color: #000080;
+  }
+  main h1{
+    color: #000080;
+    font-size: 30px;
+    text-align: center;
+    font-family: Roboto;  
+  }
+  main p{
+    color: #000080;
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;  
+  }
+  .digite{
+    border: 1px solid black;
+    font-size: 28px;
+  }
+
+  img{
+    margin-top: 25px;
+    padding: 3rem ;
+  }
+
+
+
+
+
+footer {
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #000080;
+    border-top: 2px solid #ccc;
+}
