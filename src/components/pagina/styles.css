@@ -51,7 +51,9 @@ nav a:hover {
     border: 1px solid black;
     font-size: 28px;
   }
-
+  button{
+    
+  }
   img{
     margin-top: 25px;
     padding: 3rem ;
